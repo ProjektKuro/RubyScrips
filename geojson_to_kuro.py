@@ -38,6 +38,8 @@ class Address:
     for_json = __json__
 
 result = []
+postal_codes = []
+cities = []
 start = datetime.now()
 print('Started: ', start)
 with open('export.geojson') as file:
@@ -74,6 +76,8 @@ with open('export.geojson') as file:
 
         try:
             shop_address_postalcode = shop['properties']['addr:postcode']
+            if(shop_address_postalcode not in postal_codes):
+                postal_codes.append(shop_address_postalcode)
         except(KeyError):
             pass
         try:
@@ -82,6 +86,8 @@ with open('export.geojson') as file:
             pass
         try:
             shop_address_town = shop['properties']['addr:city']
+            if(shop_address_town not in cities):
+                cities.append(shop_address_town)
         except(KeyError):
             pass
         try:
@@ -105,4 +111,10 @@ with open("./result.json", "w") as f:
 end = datetime.now()
 print('Ended: ', end)   
 print('The task lasted: ', (end-start))
+print(
+    'In total this were ' + str(len(result)) + ' Shops to parse for our data.\n' +
+    'The Shops are listed in: ' + str(len(postal_codes)) + ' postal codes.\n'
+    'The Shops are listed in: ' + str(len(cities)) + ' cities.'
+
+)
 
