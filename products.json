@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Brot",
+        "description": "Gebackenes, frisches oder abgepacktes Brot",
+        "categories": ["Lebensmittel", "Backwahren"]
+    },
+    {
+        "name": "Eier",
+        "description": "Von Hühnern",
+        "categories": ["Lebensmittel", "Frisch"]
+    },
+    {
+        "name": "Fertiggerichte",
+        "description": "Abgepacktes Essen. Schnell und einfach",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Gemüsekonserven",
+        "description": "Alles Grünzeug in Dosen",
+        "categories": ["Lebensmittel", "Haltbar"]
+    },
+    {
+        "name": "Hefe",
+        "description": "Kleine Pilze, die den Teig aufpusten",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Kartoffeln",
+        "description": "Erdäpfel",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Mehl",
+        "description": "Backzutat",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Milch",
+        "description": "Von Kühen oder Ziegen",
+        "categories": ["Lebensmittel", "Frisch"]
+    },
+    {
+        "name": "Nudeln",
+        "description": "Wie aus Italien",
+        "categories": ["Lebensmittel", "Haltbar"]
+    },
+    {
+        "name": "Öl",
+        "description": "Oliven, Raps, Sonnenblumen",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Reis",
+        "description": "Die von denen man 1000 Stück essen kann",
+        "categories": ["Lebensmittel", "Haltbar"]
+    },
+    {
+        "name": "Säuglingsnahrung",
+        "description": "Für die Kleinsten von uns",
+        "categories": ["Lebensmittel"]
+    },
+    {
+        "name": "Tomatenkonserven",
+        "description": "Tomaten in Dose, was sonst",
+        "categories": ["Lebensmittel", "Haltbar"]
+    },
+    {
+        "name": "Damenhygiene",
+        "description": "Für sie",
+        "categories": ["Drogerie", "Haushalt", "Hygiene"]
+    },
+    {
+        "name": "Desinfektionsmittel",
+        "description": "Booo, Keime und Bakterien",
+        "categories": ["Drogerie", "Haushalt"]
+    },
+    {
+        "name": "Seife",
+        "description": "Wascht euch die Hände",
+        "categories": ["Drogerie", "Haushalt"]
+    },
+    {
+        "name": "Klopapier",
+        "description": "Bitte nicht 10 Packungen auf einmal kaufen",
+        "categories": ["Drogerie", "Haushalt", "Hygiene"]
+    },
+    {
+        "name": "Waschmittel",
+        "description": "Gegen Stinken",
+        "categories": ["Drogerie", "Haushalt"]
+    },
+    {
+        "name": "Windeln",
+        "description": "Auch für die Kleinsten von uns, aber für Nachher",
+        "categories": ["Drogerie", "Hygiene"]
+    }
+]
