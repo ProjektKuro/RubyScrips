@@ -89,6 +89,10 @@ for obj in json_data['features'] do
     
     shop_name = obj['properties']['name']
 
+    if(shop_name == nil) 
+        next;
+    end
+
     shop_lat = nil
     shop_lon = nil
 
